@@ -3,7 +3,7 @@ library(jsonlite)
 library(plotly)
 library(dplyr)
 
-setwd("/Users/Edward/Documents/a7-collaborative-coding-teamhw/data")
+##setwd("/Users/Edward/Documents/a7-collaborative-coding-teamhw/data")
 survey<- read.csv(file = 'intro_survey_data.csv')
 
 map<- function(data){
