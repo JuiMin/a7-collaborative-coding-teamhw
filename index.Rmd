@@ -7,7 +7,7 @@ output: html_document
 library(jsonlite)
 library(dplyr)
 library(knitr)
-
-
+setwd("/Users/Potato/Documents/info498/a7-collaborative-coding-teamhw")
+source("scripts/summary-info.R")
 
 ```
