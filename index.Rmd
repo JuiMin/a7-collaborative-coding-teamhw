@@ -26,7 +26,8 @@ Hello, welcome to Info 498F, an experimental class in the Informatics department
 Here are some data charts that reflect the students in this class.
 
 ```{r, echo=FALSE, message=FALSE}
-
+map(df)
+chart2(df)
 
 ```
 
