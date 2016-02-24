@@ -24,11 +24,14 @@ newbies <- never_used_r(df)
 
 Hello, welcome to Info 498F, an experimental class in the Informatics department! There are all sorts of students enrolled in this class. `r info` `r macs` `r newbies`
 
-Here are some data charts that reflect the students in this class.
+Here is a histogram reflecting how many countries the students in this class have visited:
 
 ```{r, echo=FALSE, message=FALSE}
-map(df)
-chart2(df)
-
+invisible(map(df))
 ```
 
+Here is a chart reflecting the breakdown of students and how many countries they have visited by grade:
+
+```{r, echo=FALSE, message=FALSE}
+chart2(df)
+```

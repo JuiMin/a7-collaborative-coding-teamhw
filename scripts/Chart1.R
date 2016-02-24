@@ -8,7 +8,7 @@
 # survey<- read.csv(file = 'intro_survey_data.csv')
 
 map<- function(data){
-  data = survey$How.many.countries.have.you.visited.in.your.life.
+  data = data$How.many.countries.have.you.visited.in.your.life.
   histogram<- hist(
               data, 
               breaks=12, col="grey65", 
