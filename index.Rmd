@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Info 498F"
 output: html_document
 ---
 
@@ -9,5 +9,24 @@ library(dplyr)
 library(knitr)
 setwd("/Users/Potato/Documents/info498/a7-collaborative-coding-teamhw")
 source("scripts/summary-info.R")
+source("scripts/Chart1.R")
+
+df <- read.csv("data/intro_survey_data.csv")
+
+macs <- mac_user(df)
+
+info <- informatics_applicant(df)
+
+newbies <- never_used_r(df)
 
 ```
+
+Hello, welcome to Info 498F, an experimental class in the Informatics department! There are all sorts of students enrolled in this class. `r info` `r macs` `r newbies`
+
+Here are some data charts that reflect the students in this class.
+
+```{r, echo=FALSE, message=FALSE}
+
+
+```
+

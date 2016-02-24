@@ -1,13 +1,13 @@
 # Summary Information 
 
 # Require 'dplyr' package for data wrangling.
-library(dplyr)
+# library(dplyr)
 
 # Set the working directory
-setwd('C:/Users/chenn/Documents/Info498F/a7-collaborative-coding-teamhw')
+# setwd('C:/Users/chenn/Documents/Info498F/a7-collaborative-coding-teamhw')
 
 # Read the 'intro_survey_data.csv' file into a data frame
-survey_data <- read.csv('data/intro_survey_data.csv')
+# survey_data <- read.csv('data/intro_survey_data.csv')
 
 # Create a function that takes in a dataset as a parameter and returns a sentence that
 # tells you the number of MAC users in the classroom.
