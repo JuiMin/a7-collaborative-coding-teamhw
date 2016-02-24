@@ -10,6 +10,7 @@ library(knitr)
 setwd("/Users/Potato/Documents/info498/a7-collaborative-coding-teamhw")
 source("scripts/summary-info.R")
 source("scripts/Chart1.R")
+source("scripts/Chart2.R")
 
 df <- read.csv("data/intro_survey_data.csv")
 
